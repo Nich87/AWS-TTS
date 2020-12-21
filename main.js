@@ -40,8 +40,8 @@ client.on("ready", () => {
 });
 
 client.on("message", async (message) => {
-    const authorChannelId = message.member.voice.channel.id
-    const connection = message.client.voice.connections.find(connection => connection.channel.id === authorChannelId)
+    const authorChannelId = message.member.voice.channel.id.cache
+    const connection = message.client.voice.connections.find(connection => connection.channel.id.cache === authorChannelId)
 
     if (message.user == message.client.user || authorChannelId == null) {
         return;
