@@ -8,9 +8,9 @@
     "aws-sdk": "^2.813.0",
     "discord.js": "^12.5.0",
     "ffmpeg": "^0.0.4",
+    "fs": "^0.0.2",
     "node-opus": "^0.3.3",
-    "npm": "^7.3.0",
-    "fs": "^0.0.2"
+    "npm": "^7.3.0"
   },
   "devDependencies": {},
   "scripts": {
