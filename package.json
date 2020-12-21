@@ -1,0 +1,23 @@
+{
+  "name": "glitch-discord-bot",
+  "version": "0.0.0",
+  "description": "discord bot sample on Glitch",
+  "main": "main.js",
+  "dependencies": {
+    "await-to-js": "^2.1.1",
+    "aws-sdk": "^2.813.0",
+    "discord.js": "^12.5.0",
+    "ffmpeg": "^0.0.4",
+    "node-opus": "^0.3.3",
+    "npm": "^7.3.0",
+    "fs": "^0.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node main.js",
+    "test": "node main.js"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
