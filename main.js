@@ -50,11 +50,7 @@ if(message.content.indexOf(config.prefix) !== 0) return;
   const input = message.content.replace(config.prefix, "").split(" ")
     const args = input.slice(1)
     const command = input[0]
-  /*
-    if (message.content.startsWith(prefix)) {
-        
-        const command = 
-        const args = */
+
 
         if (command === "s") {
             await message.member.voice.channel.join()
